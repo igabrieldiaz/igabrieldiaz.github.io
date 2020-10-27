@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "igabrieldiaz.github.io/Homework/hw1"
+		},
+		{
+			"path": "homework/hw4"
+		},
+		{
+			"path": "projects/project-1-again"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "hw1"
+	}
+}
