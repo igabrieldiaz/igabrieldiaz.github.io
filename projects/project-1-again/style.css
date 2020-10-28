@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: ddd3c3;
+    background-color: #ddd3c3;
 }
