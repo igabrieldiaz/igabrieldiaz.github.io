@@ -5,9 +5,6 @@ body {
     background-color: #ddd3c3;
     margin: 0;
 }
-img {
-    width: 100%;
-}
 .tacobuttons{
     display: flex;
     flex-wrap: wrap;
