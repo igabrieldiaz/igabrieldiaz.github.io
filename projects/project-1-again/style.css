@@ -60,6 +60,7 @@ h1{
 }
 .carnitaspageimage {
     width: 50vw;
+    padding-top: 200px;
 }
 .fishpageimage {
     width: 50vw;
@@ -72,6 +73,7 @@ h1{
 }
 .carnitascontent {
     width: 50vw;
+    padding-top: 200px;
 }
 .fishconent {
     width: 50vw;
