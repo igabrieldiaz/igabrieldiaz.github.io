@@ -6,6 +6,11 @@
     width: 100%;
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #ec524b;
+}
+
 .home-page {
     background-color: #9ad3bc;
 }
@@ -19,8 +24,7 @@
 }
 
 .menu-images {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     border-radius: 17px;
 }
 
