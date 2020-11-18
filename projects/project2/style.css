@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300;400;700&display=swap');
 
 .banner {
-    border: 10px solid green;
+    border-radius: 17px;
+    box-shadow: 0px 8px 10px rgb(122, 122, 122);
+    width: 100%;
 }
 
 .home-page {
@@ -27,6 +29,7 @@ a {
 
 nav ul {
     list-style: none;
+    border-bottom: 5px solid #ec524b;
 }
 
 nav li {
@@ -35,10 +38,14 @@ nav li {
     color: #ec524b;
 }
 
+.locations {
+    width: 100%;
+}
+
 .location-images {
     display: inline-block;
     margin: 20px;
-    border-radius: 17%;
+    border-radius: 17px;
     box-shadow: 0px 8px 10px rgb(122, 122, 122); 
 }
 .hours-text {
