@@ -15,6 +15,12 @@ p {
     background-color: #9ad3bc;
 }
 
+.home-page-images {
+    border-radius: 17px;
+    width: 100%;
+    box-shadow: 0px 8px 10px rgb(122, 122, 122);
+}
+
 .hours-page {
     background-color: #f3eac2;
 }
@@ -48,16 +54,14 @@ nav li {
     color: #ec524b;
 }
 
-.locations {
-    width: 100%;
-}
-
 .location-images {
-    display: inline-block;
+    display: grid;
     margin: 20px;
     border-radius: 17px;
-    box-shadow: 0px 8px 10px rgb(122, 122, 122); 
+    box-shadow: 0px 8px 10px rgb(122, 122, 122);
+    width: 100%; 
 }
+
 .hours-text {
     color: #ec524b;
     font-family: 'Roboto Slab', serif;
