@@ -18,6 +18,12 @@
     background-color: #f5b461;
 }
 
+.menu-images {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 17px;
+}
+
 nav {
     font-family: 'Roboto Slab', serif;
     text-align: right;
