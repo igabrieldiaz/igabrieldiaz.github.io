@@ -19,7 +19,7 @@ p {
     background-color: #9ad3bc;
 }
 
-.home-page-images {
+.home-page-images img {
     border-radius: 17px;
     width: 100%;
     box-shadow: 0px 8px 10px rgb(122, 122, 122);
@@ -53,6 +53,10 @@ header {
     border-bottom: 5px solid #ec524b;
 }
 
+header h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
 nav ul {
     list-style: none;
     
@@ -60,7 +64,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 20px 30px;
     color: #ec524b;
 }
 
@@ -82,7 +86,7 @@ nav li a:hover {
 }
 
 @media only screen and (min-width:768px){
-    .banner, .text {
+    .banner, .text, .home-page-images {
         width: 80%;
         margin: auto;
     }
