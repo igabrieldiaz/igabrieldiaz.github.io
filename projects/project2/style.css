@@ -156,13 +156,21 @@
 
 .logo {
     font-family: 'Roboto Slab', serif;
+    color: #ec524b;
+    display: flex;
+    align-items: center;
+    height: 100px;
 
 }
 
 .banner img {
-    border-radius: 17px;
-    box-shadow: 0px 8px 10px rgb(122, 122, 122);
     width: 100%;
+}
+
+.subhead {
+    color: #ec524b;
+    font-family: 'Roboto Slab', serif;
+    
 }
 
 p {
