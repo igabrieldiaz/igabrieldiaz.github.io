@@ -8,6 +8,7 @@ body {
     background-color: #f3eac2;
 }
 
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -95,3 +96,6 @@ body {
     }
 }
 
+.image-1 {
+    background-color: aqua;
+}
