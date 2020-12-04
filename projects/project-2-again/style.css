@@ -94,6 +94,10 @@ body {
     .navbar-links.active {
         display: flex;
     }
+    
+    .row-1 {
+        flex-direction: column;
+    }
 }
   
 .content {
@@ -104,14 +108,21 @@ body {
     color: #444;
 }
   
-.box {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
+.row-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row-2 {
+    
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 .main-content img {
-    size: 300px 300px;
+    width: 50vh;
 }
