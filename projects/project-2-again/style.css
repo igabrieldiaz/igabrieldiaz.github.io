@@ -111,3 +111,7 @@ body {
     padding: 20px;
     font-size: 150%;
 }
+
+.main-content img {
+    size: 300px 300px;
+}
