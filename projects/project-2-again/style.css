@@ -202,5 +202,11 @@ body {
         grid-row: 7;
     }
 
+    .menu-grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 100vh;
+
 }
   
