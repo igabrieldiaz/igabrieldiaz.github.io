@@ -108,26 +108,29 @@ body {
 .home-box-4 {
     grid-column: 1/4;
     grid-row: 2;
-    background-color: #ec524b;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #ec524b;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .home-box-5 {
     grid-column: 1/1;
     grid-row: 3/3;
-    background-color: aqua;
 }
 
 .home-box-6 {
     grid-column: 2/2;
     grid-row: 3/3;
-    background-color: blueviolet;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #ec524b;
 }
 
 .home-box-7 {
     grid-column: 3/3;
     grid-row: 3/3;
-    background-color: chartreuse;
 }
 
 @media (max-width: 800px) {
@@ -162,6 +165,57 @@ body {
         display: flex;
     }
     
+    .home-grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 100vh;
+    }
     
+    .home-grid-container img {
+        width: 100%;
+    }
+
+    .home-box-1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .home-box-2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .home-box-3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .home-box-4 {
+        grid-column: 1;
+        grid-row: 4;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        color: #ec524b;
+    }
+    
+    .home-box-5 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    .home-box-6 {
+        grid-column: 1;
+        grid-row: 6;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        color: #ec524b;
+    }
+    
+    .home-box-7 {
+        grid-column: 1;
+        grid-row: 7;
+    }
+
 }
   
