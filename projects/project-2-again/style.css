@@ -156,6 +156,20 @@ body {
     }
 }
 
+.home-box-1, .home-box-2, .home-box-3 {
+    animation: faded 2s 3 ease;
+}
+
+@keyframes bigger {
+    0% { transform: scale(1);}
+    50% { transform: scale(1.15);}
+    100% { transform: scale(1);}
+}
+
+.home-box-4 {
+    animation: bigger 2s 3 ease;
+}
+
 @keyframes smaller {
     0% {transform: scale(1);}
     50% {transform: scale(.95);}
@@ -334,6 +348,8 @@ body {
         text-align: center;
         font-family: 'Roboto Slab', serif;
         color: #ec524b;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     
     .home-box-5 {
