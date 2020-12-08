@@ -27,6 +27,12 @@ main{
 .tacobuttons .carnitasbutton img {
     width: 120%;
 }
+
+.tacobuttons img:hover{
+    color: #628180;
+    opacity: 35%;
+}
+
 .content {
     width: 45%;
     margin: auto;
@@ -45,6 +51,11 @@ h1{
     width: 35px;
     height: 120px;
 }
+
+.homebutton {
+    padding-left: 50px;
+}
+
 .pastorpage {
     display: flex;
     justify-content: flex-start;   
@@ -77,6 +88,21 @@ h1{
     width: 45%;
     padding-top: 200px;
 }
+
+.asadacontent, .carnitascontent,.fishconent, .pastorcontent {
+    padding-left: 50px;
+}
+
+@keyframes rotation {
+    0% {transform: rotate(90deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(3600deg);}
+}
+
+.homebutton img {
+    animation: rotation 3s 3s;
+}
+
 /*
 font-family: 'EB Garamond', serif;
 font-family: 'Roboto', sans-serif;
