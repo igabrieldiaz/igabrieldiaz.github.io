@@ -67,7 +67,7 @@ body {
 .home-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 100vh;
 }
 
@@ -101,6 +101,16 @@ body {
 .home-box-7 {
     grid-column: 3/3;
     grid-row: 3/3;
+}
+
+.home-box-8 {
+    grid-column: 1/4;
+    grid-row: 4;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #f5b461;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .paragraph-2 {
@@ -373,6 +383,16 @@ body {
     .home-box-7 {
         grid-column: 1;
         grid-row: 7;
+    }
+
+    .home-box-8 {
+        grid-column: 1;
+        grid-row: 8;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        color: #ec524b;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .menu-grid-container {
