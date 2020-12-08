@@ -143,7 +143,7 @@ body {
 }
 
 .menu-image:hover {
-    background-color: #ec524b;
+    border-color: #ec524b;
     opacity: 35%;
 }
 
@@ -154,6 +154,16 @@ body {
     100% {
         opacity: 0;
     }
+}
+
+@keyframes smaller {
+    0% {transform: scale(1);}
+    50% {transform: scale(.95);}
+    100% {transform: scale(1);}
+}
+
+#taco-box, #burrito-box, #sides-box {
+    animation: smaller 2s 3 ease-in;
 }
 
 .contact-form {
