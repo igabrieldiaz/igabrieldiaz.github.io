@@ -130,12 +130,30 @@ body {
     font-weight: 700;
 }
 
+.menu-text h3:hover {
+    text-decoration: overline 3px solid;
+}
+
 .menu-text p {
     font-weight: 300;
 }
 
 .menu-image {
     width: 100%;
+}
+
+.menu-image:hover {
+    background-color: #ec524b;
+    opacity: 35%;
+}
+
+@keyframes faded {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 .contact-form {
