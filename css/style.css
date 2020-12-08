@@ -29,7 +29,7 @@ main a {
 
 main a:hover {
   color: #222831;
-  text-decoration: underline 2px solid;
+  text-decoration: overline 2px solid;
 }
 
 header {
