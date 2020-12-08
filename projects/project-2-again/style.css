@@ -156,8 +156,13 @@ body {
     }
 }
 
-.home-box-1, .home-box-2, .home-box-3 {
-    animation: faded 2s 3 ease;
+@keyframes change-colors {
+    0% {color: #9ad3bc;}
+    100% {color: #f5b461;}
+}
+
+.paragraph-1, .paragraph-2 {
+    animation: change-colors 3s 2s ease;
 }
 
 @keyframes bigger {
@@ -176,7 +181,7 @@ body {
     100% {transform: scale(1);}
 }
 
-#taco-box, #burrito-box, #sides-box {
+.menu-text {
     animation: smaller 2s 3 ease-in;
 }
 
